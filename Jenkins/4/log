@@ -1,0 +1,19 @@
+Started by user [8mha:////4IqISc8mZHKxwA803+xGhSEYSKbL4bRWUzPQq8mKg6kiAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Project_Manager
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/amantrita/FSE.git # timeout=10
+Fetching upstream changes from https://github.com/amantrita/FSE.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/amantrita/FSE.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 7633e1c8344cb50535ef7fd0fc147c46f975c59e (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 7633e1c8344cb50535ef7fd0fc147c46f975c59e
+Commit message: "adding document"
+ > git.exe rev-list --no-walk 7633e1c8344cb50535ef7fd0fc147c46f975c59e # timeout=10
+FATAL: https://wiki.jenkins-ci.org/display/JENKINS/MSBuild+Plugin doesn't exist
+Build step 'Build a Visual Studio project or solution using MSBuild' marked build as failure
+Finished: FAILURE

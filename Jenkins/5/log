@@ -1,0 +1,66 @@
+Started by user [8mha:////4IqISc8mZHKxwA803+xGhSEYSKbL4bRWUzPQq8mKg6kiAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Project_Manager
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/amantrita/FSE.git # timeout=10
+Fetching upstream changes from https://github.com/amantrita/FSE.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/amantrita/FSE.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 7633e1c8344cb50535ef7fd0fc147c46f975c59e (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 7633e1c8344cb50535ef7fd0fc147c46f975c59e
+Commit message: "adding document"
+ > git.exe rev-list --no-walk 7633e1c8344cb50535ef7fd0fc147c46f975c59e # timeout=10
+Path To MSBuild.exe: C:\Windows\Microsoft.NET\Framework64\v3.5\msbuild.exe
+Executing the command cmd.exe /C " C:\Windows\Microsoft.NET\Framework64\v3.5\msbuild.exe /p:VisualStudioVersion=10.0 "C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.sln" " && exit %%ERRORLEVEL%% from C:\Program Files (x86)\Jenkins\workspace\Project_Manager
+[Project_Manager] $ cmd.exe /C " C:\Windows\Microsoft.NET\Framework64\v3.5\msbuild.exe /p:VisualStudioVersion=10.0 "C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.sln" " && exit %%ERRORLEVEL%%
+Microsoft (R) Build Engine Version 3.5.30729.8674
+[Microsoft .NET Framework, Version 2.0.50727.8662]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0mC:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props(9,75): error MSB4066: The attribute "BeforeTargets" in element <Target> is unrecognized.
+ProjectManager\ProjectManager.csproj : Solution file warning MSB4122: Scanning project dependencies for project "ProjectManager\ProjectManager.csproj" failed. The attribute "BeforeTargets" in element <Target> is unrecognized.  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0mC:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj(92,49): error MSB4066: The attribute "BeforeTargets" in element <Target> is unrecognized.
+ProjectManager.Tests\ProjectManager.Tests.csproj : Solution file warning MSB4122: Scanning project dependencies for project "ProjectManager.Tests\ProjectManager.Tests.csproj" failed. The attribute "BeforeTargets" in element <Target> is unrecognized.  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0mC:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\PerformanceTests\PerformanceTests.csproj(89,49): error MSB4066: The attribute "BeforeTargets" in element <Target> is unrecognized.
+PerformanceTests\PerformanceTests.csproj : Solution file warning MSB4122: Scanning project dependencies for project "PerformanceTests\PerformanceTests.csproj" failed. The attribute "BeforeTargets" in element <Target> is unrecognized.  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\PerformanceTests\PerformanceTests.csproj
+Build started 27-08-2019 16:18:32.
+Project "C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.sln" on node 0 (default targets).
+  Building solution configuration "Debug|Any CPU".
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0mC:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\PerformanceTests\PerformanceTests.csproj : error MSB4132: The tools version "15.0" is unrecognized.
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0mC:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj : error MSB4132: The tools version "12.0" is unrecognized.
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0mC:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager\ProjectManager.csproj : error MSB4132: The tools version "15.0" is unrecognized.
+Done Building Project "C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.sln" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.sln" (default target) (1) ->
+  ProjectManager\ProjectManager.csproj : Solution file warning MSB4122: Scanning project dependencies for project "ProjectManager\ProjectManager.csproj" failed. The attribute "BeforeTargets" in element <Target> is unrecognized.  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props
+  ProjectManager.Tests\ProjectManager.Tests.csproj : Solution file warning MSB4122: Scanning project dependencies for project "ProjectManager.Tests\ProjectManager.Tests.csproj" failed. The attribute "BeforeTargets" in element <Target> is unrecognized.  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj
+  PerformanceTests\PerformanceTests.csproj : Solution file warning MSB4122: Scanning project dependencies for project "PerformanceTests\PerformanceTests.csproj" failed. The attribute "BeforeTargets" in element <Target> is unrecognized.  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\PerformanceTests\PerformanceTests.csproj
+
+
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0m  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props(9,75): error MSB4066: The attribute "BeforeTargets" in element <Target> is unrecognized.
+
+
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0m  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj(92,49): error MSB4066: The attribute "BeforeTargets" in element <Target> is unrecognized.
+
+
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0m  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\PerformanceTests\PerformanceTests.csproj(89,49): error MSB4066: The attribute "BeforeTargets" in element <Target> is unrecognized.
+
+
+"C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.sln" (default target) (1) ->
+(Build target) -> 
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0m  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\PerformanceTests\PerformanceTests.csproj : error MSB4132: The tools version "15.0" is unrecognized.
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0m  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager.Tests\ProjectManager.Tests.csproj : error MSB4132: The tools version "12.0" is unrecognized.
+[8mha:////4Ekc60kHFDRjZ/SMLBZq/TJzKTYUN3554Ay+LoaeLm4IAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0m  C:\Program Files (x86)\Jenkins\workspace\Project_Manager\server\ProjectManager\ProjectManager\ProjectManager.csproj : error MSB4132: The tools version "15.0" is unrecognized.
+
+    3 Warning(s)
+    6 Error(s)
+
+Time Elapsed 00:00:00.52
+Build step 'Build a Visual Studio project or solution using MSBuild' marked build as failure
+Finished: FAILURE
